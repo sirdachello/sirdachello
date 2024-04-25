@@ -1,9 +1,2 @@
-- 👋 Hi, I’m Valentine :)
-- 👀 I’m interested in making coding my trade :)
-- 🌱 I’m currently learning Javascript :)
-- :)
-
-<!---
-sirdachello/sirdachello is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Basically, it's a tiny prompt game where you need to guess the number within a certain amount of tries. Depending on how close you are, you get certain prompts, if you fail, you start again, if you win, you start again. 
+I want to figure out how to add all of that into an HTML+CSS environment now. Want to add voiced narration of events and background image, which, as of now, I have no idea how to do :)
