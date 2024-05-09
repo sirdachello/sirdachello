@@ -1,0 +1,195 @@
+#parent {
+    width: 500px;
+    height: 400px;
+    margin: 10px auto;
+    border: 1px solid green;
+    position: relative;
+    box-shadow: 5px 5px 10px 5px black;
+}
+#child {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+#parent2 {
+    width: 500px;
+    height: 400px;
+    margin: 10px auto;
+    background: limegreen;
+    position: relative;
+    box-shadow: 5px 5px 10px 5px black;
+}
+#child2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    width: 100px;
+    height: 100px;
+    background: white;
+    box-shadow: 5px 5px 10px 5px black;
+}
+#child3 {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+
+    width: 100px;
+    height: 100px;
+    background: white;
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+#streetlamp {
+    margin: 10px auto;
+    width: 125px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+.lights {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 5px;
+    box-shadow: 5px 5px 10px 5px black;
+}
+#yellow{
+    background: yellow;
+}
+#red {
+    background: red;
+}
+#green {
+    background: green;
+}
+#face {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: lightgreen;
+    margin: 10px auto;
+    position: relative;
+    box-shadow: 5px 5px 10px 5px black;
+}
+.eyes {
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+}
+#righteye{
+    top: 80px;
+    right: 100px;
+    box-shadow: 5px 5px 10px 5px black;
+}
+#lefteye{
+    top: 80px;
+    left: 100px;
+    box-shadow: 5px 5px 10px 5px black;
+}
+#nose {
+    width: 75px;
+    height: 75px;
+    background: white;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 10px 5px black;
+}
+#mouth {
+    width: 200px;
+    height: 20px;
+    background: white;
+    
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    transform: translate(-50%, 0%);
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+#face2 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: olivedrab;
+    margin: 10px auto;
+    position: relative;
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+#lefteye2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 5px 5px 10px 5px black;
+}
+#righteye2 {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 5px 5px 10px 5px black;
+}
+#nose2 {
+    position: absolute;
+    top: 275px;
+    left: 225px;
+    transform: translate(-50%, -50%);
+
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 5px 5px 10px 5px black;
+}
+#mouth2 {
+    position: absolute;
+    top: 175px;
+    left: 225px;
+    transform: translate(-50%, 0%);
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 5px 5px 10px 5px black;
+}
+#mouth3 {
+    position: absolute;
+    top: 50px;
+    left: 225px;
+    transform: translate(-50%, 0%);
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: olivedrab;
+}
+
+
