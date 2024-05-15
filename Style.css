@@ -1,0 +1,543 @@
+@font-face {
+    font-family: "MontSerrat";
+    src: url('Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    font-family:  "MontSerrat", sans-serif;
+    user-select: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 500px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#wrapper {
+    width: 100%;
+}
+header {
+    display: flex;
+
+    height: 45vw;
+}
+.headbackground {
+    position: absolute;
+    right: 0;
+    height: 45vw;
+    z-index: -1;
+}
+#logo {
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    height: 8vw;
+    z-index: -1;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    height: 7vw;
+    margin-right: 3vw;
+    font-size: 1.2vw;
+    justify-content: right;
+    align-items: center;
+}
+nav img.scale {
+    height: 1.5vw;
+}
+nav img.scale2 {
+    height: 2vw;
+}
+
+.info span {
+    display: inline-block;
+    color: white;
+    font-size: 1.2vw;
+    margin-bottom: 0.5vw;
+    margin-right: 0.9vw;
+}
+
+div.scrolls {
+    margin-right: 2vw;
+}
+div.scrolls a {
+    margin-right: 1vw;
+
+}
+div.scrolls a:hover{
+    text-shadow: 0.05vw 0.05vw 0.3vw black;
+}
+#headcontent{
+    position: absolute;
+    top: 15vw;
+    left: 15vw;
+
+    width: 32vw;
+    font-size: 1.3vw;
+}
+#headcontent p {
+    line-height: 2vw;
+    letter-spacing: 0.03vw;
+}
+#headcontent button {
+    background: #2aa89b;
+    margin-top: 1vw;
+    width: 22vw;
+    height: 5vw;
+    border-radius: 57vw;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;
+}
+#headcontent button:hover {
+box-shadow: 0.1vw 0.1vw 0.3vw black;
+    cursor: pointer;
+}
+#HTOMI {
+    height: 40vw;
+    position: relative;
+}
+#bone, #backcircle, #smallcircle, #image {
+    position: absolute;
+}
+#backcircle {
+    top: 5vw;
+    left: 3vw;
+    height: 30vw;
+    z-index: -4;
+}
+#image {
+    top: 3vw;
+    left: 4vw;
+    height: 30vw;
+    z-index: 2;
+}
+#bone {
+    top: 26.2vw;
+    left: 1.2vw;
+    height: 11vw;
+    z-index: 1;
+}
+#smallcircle {
+bottom: 0;
+    right: 2vw;
+    height: 11vw;
+    z-index: 1;
+}
+#content {
+    position: absolute;
+    top: 6vw;
+    right: 14vw;
+
+    width: 32vw;
+
+    z-index: 6;
+
+    font-size: 1.3vw;
+    line-height: 2vw;
+    letter-spacing: 0.03vw;
+    text-align: left;
+
+}
+#content h1 {
+    margin-bottom: 2.5vw;
+}
+#content span {
+    color: #2aa89b;
+}
+
+#SHOROBIMO {
+    display: flex;
+    width: 100%;
+
+    margin: 6.9vw auto 0;
+    justify-content: space-evenly;
+}
+#card1, #card2, #card3 {
+    display: flex;
+    flex-direction: column;
+    height: 45vw;
+    width: 27.2vw;
+    background: #2aa89b;
+    border-radius: 35px;
+    position: relative;
+
+    font-size: 0.89vw;
+    letter-spacing: 0.03vw;
+    line-height: 2vw;
+}
+#cardImage, #cardImage2, #cardImage3 {
+    position: absolute;
+    top: -12vw;
+    left: 3vw;
+    justify-content: center;
+    width: 20vw;
+    z-index: 20;
+}
+#cardContentHidden, #cardContent2Hidden, #cardContent3Hidden {
+    padding: 4vw;
+    text-align: left;
+    position: absolute;
+    top: 4.5vw;
+    color: #ffffff;
+    z-index: 5;
+}
+
+#cardContentHidden p, #cardContent2Hidden p, #cardContent3Hidden p {
+line-height: 1.2vw;
+}
+
+#cardContentHidden span, #cardContent2Hidden span, #cardContent3Hidden span {
+ color: #bc6726;
+    font-weight: bold;
+    font-size: 1vw;
+}
+hr {
+    padding: 0;
+    width: 100%;
+}
+
+#SHOROBIMO h2 {
+    color: #ffd38e;
+    text-align: center;
+}
+
+#SHOROBIMO .cardButton {
+    display: flex;
+    position: absolute;
+    bottom: 3vw;
+    background: #f2982c;
+    color: #ffffff;
+    border: none;
+    width: 20vw;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 0.05vw;
+    font-size: 1vw;
+    z-index: 20;
+}
+#SHOROBIMO .cardButton:hover {
+    box-shadow: 0.1vw 0.1vw 0.3vw black;
+    cursor: pointer;
+}
+.topSplit, .botSplit {
+    position: absolute;
+}
+.topSplit {
+    top: 15%;
+}
+.botSplit {
+    bottom: 18%;
+}
+#SHOROBIMO br {
+    background: black;
+    border: 1px solid black;
+    line-height: 1px;
+}
+
+#cardContent, #cardContent2, #cardContent3 {
+    padding: 3.8vw;
+    text-align: left;
+    position: absolute;
+    top: 4.5vw;
+    color: #ffffff;
+    line-height: 1vw;
+    background: #2aa89b;
+    z-index: 6;
+    transition: opacity 0.3s;
+
+
+}
+#cardContent2 {
+    line-height: 1vw;
+    padding-bottom: 8vw;
+}
+#cardContent3 {
+    line-height: 1vw;
+    padding-bottom: 9vw;
+}
+#cardContent:hover, #cardContent2:hover, #cardContent3:hover {
+opacity: 0;
+}
+#cardContent .price, #cardContent2 .price, #cardContent3 .price {
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-bottom;
+    height: 1.2vw;
+    width: 4.8vw;
+    background: #5dd1c6;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-top: 0.16vw;
+
+}
+#SHOROBIMO .bold {
+    font-weight: bold;
+}
+#SHOROBIMO .opacity {
+    opacity: 0.8;
+}
+#SHOROBIMO .normal {
+    font-weight: normal;
+}
+#SHOROBIMO a {
+    display: flex;
+    justify-content: center;
+}
+#SHOROBIMO h1 {
+    position: absolute;
+    z-index: 30;
+    top: 76vw;
+    font-size: 2.4vw;
+    line-height: 2vw;
+    letter-spacing: 0.03vw;
+}
+
+#WHYUS {
+margin-top: 6vw;
+}
+
+#WHYUS h1 {
+    text-align: center;
+    font-size: 2.8vw;
+    line-height: 2vw;
+    letter-spacing: 0.03vw;
+}
+#WHYUS #grid {
+    width: 80%;
+    margin: 5vw auto 0 auto;
+    column-gap: 5%;
+    row-gap: 4%;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+}
+#WHYUS #grid p {
+    font-size: 1.3vw;
+    line-height: 2vw;
+    letter-spacing: 0.03vw;
+}
+#WHYUS #grid h2 {
+    font-size: 1.3vw;
+    color: #bc6726;
+    letter-spacing: 0.03vw;
+}
+#WHYUS #grid img {
+    height: 7vw;
+}
+#REVIEWS {
+    width: 85%;
+    height: 56vw;
+    margin: 0 auto;
+    background: url("Images/Reviews/bg.svg") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+#REVIEWS #ReviewImages {
+    padding: 0;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 62%;
+    height: 55%;
+    background-image: url("Images/Reviews/карточка отзыва.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+#REVIEWS #Review1 {
+    height: 33vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#REVIEWS #Review2 {
+    border: 1px solid black;
+    height: 30vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+#REVIEWS h1 {
+    position: absolute;
+    top: 9%;
+    left: 15%;
+    font-size: 2.8vw;
+    line-height: 2vw;
+    letter-spacing: 0.03vw;
+}
+#REVIEWS #reviewsLeft {
+    position: absolute;
+    top: 50%;
+    left: 14%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#REVIEWS #reviewsRight {
+    position: absolute;
+    top: 50%;
+    right: 14%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#REVIEWS #circles {
+    position: absolute;
+    left: 50%;
+    top: 78%;
+    transform: translate(-50%, 0);
+    height: 1vw;
+}
+.swiper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 55vw;
+    height: 35vw;
+}
+.swiper-slide img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 45vw;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: white;
+}
+#LAST {
+    margin-top: -6vw;
+    position: relative;
+    height: 40vw;
+}
+#LAST #photo {
+    position: absolute;
+    top: 3vw;
+    right: 5.5vw;
+    height: 30vw;
+    z-index: 2;
+}
+#LAST #lastBits{
+    position: absolute;
+    top: 6vw;
+    right: 3vw;
+    height: 30vw;
+}
+#LAST #lastBackground {
+    position: absolute;
+    top: 6vw;
+    left: 3vw;
+    height: 9vw;
+}
+
+#LAST #lastContent {
+    position: absolute;
+    top: 3vw;
+    left: 14vw;
+
+    width: 28vw;
+
+    z-index: 6;
+
+    font-size: 1.6vw;
+    line-height: 2vw;
+    letter-spacing: 0.03vw;
+    text-align: left;
+
+}
+#LAST #lastContent h1 {
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+    letter-spacing: 0.03vw;
+}
+#LAST #lastContent span {
+    color: #2aa89b;
+}
+#LAST button {
+    background: #2aa89b;
+    margin-top: 1vw;
+    width: 22vw;
+    height: 5vw;
+    border-radius: 57vw;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;
+}
+#LAST button:hover {
+    box-shadow: 0.1vw 0.1vw 0.3vw black;
+    cursor: pointer;
+}
+#LAST p {
+    font-size: 1.3vw;
+    line-height: 2vw;
+    letter-spacing: 0.03vw;
+}
+#FOOTER {
+    position: relative;
+    width: 100%;
+    height: 20vw;
+    margin-bottom: 0;
+}
+#footerBackground {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#FOOTER #footerLogo {
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    z-index: 5;
+    height: 12vw;
+}
+#FOOTER #footerCopyright {
+    position: absolute;
+    bottom: 9%;
+    right: 15%;
+    height: 1.8vw;
+}
+#FOOTER .scrolls {
+    position: absolute;
+    top: 39%;
+    right: 15%;
+
+}
+#FOOTER .info {
+    position: absolute;
+    top: 55%;
+    right: 18%;
+}
