@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Valentine :)
-- 👀 I’m interested in making coding my trade :)
-- 🌱 I’m currently learning Javascript :)
+- 👀 Making imaginary things come to life with React.
+- 🌱 I’m currently learning a lot, don't think this line's gonna change.
 - :)
 
 <!---
